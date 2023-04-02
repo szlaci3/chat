@@ -1,6 +1,6 @@
 {
   "private": true,
-  "author":"Laszlo Szalai <l.szalai@super-staffing.com>",
+  "author": "Laszlo Szalai <l.szalai@super-staffing.com>",
   "scripts": {
     "dev": "umi dev",
     "build": "umi build",
@@ -9,7 +9,9 @@
     "start": "npm run dev"
   },
   "dependencies": {
-    "umi": "^4.0.41"
+    "chatgpt": "^5.1.4",
+    "umi": "^4.0.41",
+    "unfetch": "^5.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
